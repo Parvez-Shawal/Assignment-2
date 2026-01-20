@@ -687,10 +687,6 @@ a {
 
 
 
-
-
-
-
 @media screen and (max-width: 576px) {
     .nav-menu, .nav-action {
         display: none;
