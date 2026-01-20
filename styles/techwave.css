@@ -191,6 +191,20 @@ a {
     margin: 0 auto;
 }
 
+.hero-inner span {
+    background: linear-gradient(90deg, #9100F8 0%,#4e15ec 25%, #FB09B4 50%, #F7E93F 75%, #9100F8 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: waveScan 2s linear infinite;
+}
+@keyframes waveScan {
+    to {
+        background-position: 200% center;
+    }
+}
+
 
 .hero-main-stack {
     position: relative;
@@ -318,6 +332,20 @@ a {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+}
+
+.container span {
+    background: linear-gradient(90deg, #9100F8 0%,#4e15ec 25%, #FB09B4 50%, #F7E93F 75%, #9100F8 100%);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: waveScan 2s linear infinite;
+}
+@keyframes waveScan {
+    to {
+        background-position: 200% center;
+    }
 }
 
 .section-title {
