@@ -609,8 +609,7 @@ a {
     position: relative;
     overflow: hidden;
     text-align: center;
-    border-top: 2px solid transparent;
-    
+    border-top: 2px solid transparent;   
 }
 
 .footer-container {
@@ -692,7 +691,7 @@ a {
 
 
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
     .nav-menu, .nav-action {
         display: none;
     }
@@ -776,6 +775,5 @@ a {
     }
     .footer-bg-waves { background-size: cover; }
 
-
-
+    
 }  
