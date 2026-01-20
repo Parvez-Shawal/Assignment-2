@@ -258,6 +258,145 @@ a {
 }
 
 
+              /* about section styles */
+
+ .about-section {
+    text-align: center;
+    padding: 80px 0;
+}
+
+.about-text {
+    max-width: 800px;
+    margin: 0 auto 160px;
+}
+
+.about-text h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    color: #b3b3b3;
+    margin-bottom: 20px;
+}
+
+.stats-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.stat-item h3 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #00ff88;
+    margin-bottom: 5px;
+}
+
+.stat-item p {
+    font-size: 1rem;
+    line-height: 20px;
+    color: #b3b3b3;
+}
+
+.star {
+    color: #00ff88;
+}  
+
+
+                /* features sections styles */
+
+.features-section {
+    background-color: #0f021a;
+    padding: 120px 0 100px 0;
+    color: white;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 24px;
+}
+
+.card {
+    background-color: #1a0b2e;
+    border-radius: 32px;
+    padding: 32px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 16px;
+}
+
+.card p {
+    color: #b3b3b3;
+    font-size: rem;
+    line-height: 1.6;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 24px;
+}
+
+.tall {
+    grid-column: span 4;
+    grid-row: span 2; 
+}
+
+.wide {
+    grid-column: span 8;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.wide .icon {
+    margin-bottom: 8px;
+}
+
+.medium {
+    grid-column: span 7;
+}
+
+.small {
+    grid-column: span 5;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+}
+
+
+
+
+
 
 
 
@@ -307,8 +446,15 @@ a {
     .mic-layer {
     
     width: 50px;
-    
-}
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+    }
+    .tall, .wide, .medium, .small {
+        grid-column: span 1;
+        flex-direction: column;
+    }
 
 
 }  
