@@ -324,7 +324,7 @@ a {
 
 .features-section {
     background-color: #230E3D;
-    padding: 120px 0 100px 0;
+    padding: 120px 0 120px 0;
     color: white;
 }
 
@@ -427,7 +427,7 @@ a {
 
 .episodes-section {
     background-color: #0f021a;
-    padding: 20px 0;
+    padding: 100px 0  60px 0;
 }
 
 .episodes-grid {
@@ -521,7 +521,7 @@ a {
 
 .host-section {
     background-color: #0f021a;
-    padding: 90px 0 120px 0;
+    padding: 50px 0 120px 0;
     color: white;
 }
 
@@ -775,5 +775,5 @@ a {
     }
     .footer-bg-waves { background-size: cover; }
 
-    
+
 }  
